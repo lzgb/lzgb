@@ -2,21 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Your Name</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>liam (:</title>
+    <style>
+        body {
+            font-family: Times New Roman, serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f9f9f9;
+        }
+        .home-page {
+            text-align: left;
+            padding: 20px;
+        }
+        .home-page h1 {
+            font-size: 2rem;
+            margin-bottom: 40px;
+        }
+        .media-nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        .media-nav li {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .media-nav img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .media-nav a {
+            text-decoration: none;
+            font-size: 2rem;
+            color: #000;
+        }
+    </style>
 </head>
 <body>
     <div class="home-page">
-        <div class="box">
-            <h1>Your Name</h1>
-            <nav class="media-nav" role="navigation">
-                <ul>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/portfolio/">Portfolio</a></li>
-                    <li><a href="/article/">Article</a></li>
-                    <li><a href="/fiction/">Fiction</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>liam (:</h1>
+        <nav class="media-nav" role="navigation">
+            <ul>
+                <li>
+                    <img src="about me.jpg" alt="about me">
+                    <a href="/about me/">about me</a>
+                </li>
+                <li>
+                    <img src="things i made.jpg" alt="things i made">
+                    <a href="/things i made/">things i made</a>
+                </li>
+                <li>
+                    <img src="things i like.jpg" alt="things i like">
+                    <a href="/things i like/">things i like</a>
+                </li>
+            </ul>
+        </nav>
     </div>
 </body>
 </html>
